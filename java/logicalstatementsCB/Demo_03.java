@@ -1,0 +1,32 @@
+package com.java.logicalstatementsCB;
+
+import java.util.Scanner;
+
+public class Demo_03 {
+
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter : ");
+		float n=sc.nextFloat();
+		if(n>100 || n<0) {
+			System.out.println("invalid");
+		}
+		else if(n>90) {
+			System.out.println("grade A");
+		}
+		else if(n>80) {
+			System.out.println("grade B");
+		}
+		else if(n>70) {
+			System.out.println("grade C");
+		}
+		else if(n>60) {
+			System.out.println("grade D");
+		}
+		else {
+			System.out.println("failed");
+		}
+   sc.close();
+	}
+
+}
